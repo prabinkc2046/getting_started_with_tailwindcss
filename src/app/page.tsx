@@ -1,7 +1,10 @@
+import Greet from '@/components/Greet'
 import React from 'react'
 
 export default function Home() {
   return (
-    <div className='bg-blue-500'>Welcome to home page</div>
+    <div className='text-3xl font-bold underline'>
+      <Greet />
+    </div>
   )
 }
